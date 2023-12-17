@@ -11,6 +11,22 @@
         <h2 class="text-xl">Personajes</h2>
       </template>
       <section class="flex flex-col">
+        <WowCard class="m-4">
+          <h1 class="text-lg">Hola</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+            blanditiis eveniet labore, dolorem distinctio ducimus reprehenderit
+            illo libero veritatis molestias.
+          </p>
+        </WowCard>
+        <WowCard class="m-4">
+          <h1 class="text-lg">Hola</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+            blanditiis eveniet labore, dolorem distinctio ducimus reprehenderit
+            illo libero veritatis molestias.
+          </p>
+        </WowCard>
         <div
           class="flex justify-between items-center min-h-[5rem] px-4 sm:px-6"
         >
@@ -50,7 +66,12 @@
               multiple
               class="w-32"
             >
-              <UButton icon="i-heroicons-view-columns" color="gray" size="xs" class="w-full">
+              <UButton
+                icon="i-heroicons-view-columns"
+                color="gray"
+                size="xs"
+                class="w-full"
+              >
                 Columnas
               </UButton>
             </USelectMenu>
